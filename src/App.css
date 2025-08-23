@@ -171,6 +171,26 @@ section h2 {
   line-height: 1.6;
 }
 
+/* Download Resume Button */
+.download-btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #007acc, #005f99);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #005f99, #007acc);
+  transform: translateY(-3px);
+  box-shadow: 4px 6px 15px rgba(0,0,0,0.3);
+}
+
 /* Responsive: stack vertically on mobile */
 @media (max-width: 768px) {
   .about-container {

@@ -67,6 +67,14 @@ function App() {
         I’m an undergraduate at the University of Sri Jayewardenepura. 
         I want to contribute to a peaceful world while sharing knowledge and skills.
       </p>
+      <a
+  href={`${process.env.PUBLIC_URL}/Resume_Madhashani.pdf`}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="download-btn">View Resume</button>
+</a>
+
     </div>
   </div>
 </section>
